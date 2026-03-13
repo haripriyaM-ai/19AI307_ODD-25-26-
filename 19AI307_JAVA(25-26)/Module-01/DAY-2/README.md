@@ -17,8 +17,9 @@ To write a Java program to determine the type of triangle using conditional stat
    - If all three sides are equal → print Equilateral.
    - Else if any two sides are equal → print Isosceles.
    - Else → print Scalene.
-8.If the triangle condition is false → print Not a triangle.
-Stop the program.
+8. If the triangle condition is false → print Not a triangle.
+
+9. Stop the program.
 
 
 
@@ -79,4 +80,5 @@ Equilateral
 
 ## RESULT:
 Thus, the Java program to determine the type of triangle using conditional statements was executed successfully and the output was verified.
+
 

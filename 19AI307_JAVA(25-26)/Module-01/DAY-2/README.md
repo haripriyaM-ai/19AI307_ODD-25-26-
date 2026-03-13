@@ -57,6 +57,11 @@ public class Main{
 
 ## SOURCE CODE:
 
+Compile the program using
+javac Main.java
+
+Run the program using
+java Main
 
 
 
@@ -74,3 +79,4 @@ Equilateral
 
 ## RESULT:
 Thus, the Java program to determine the type of triangle using conditional statements was executed successfully and the output was verified.
+

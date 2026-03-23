@@ -88,10 +88,8 @@ java prog
 
 ## OUTPUT:
 
-```
-Hari Priya
-Employee Name: Hari Priya
-```
+<img width="623" height="255" alt="image" src="https://github.com/user-attachments/assets/e7f86a3e-a5f5-4e87-86e8-07a308e1f7de" />
+
 
 ---
 

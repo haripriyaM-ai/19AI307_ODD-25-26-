@@ -64,10 +64,8 @@ java Main
 
 ## OUTPUT:
 
-```
-5
-Factorial of 5 is: 120
-```
+<img width="681" height="248" alt="image" src="https://github.com/user-attachments/assets/84152090-2f71-4b81-8a32-a27112032aa9" />
+
 
 ## RESULT:
 Thus, the Java program to find the factorial of a number using a looping statement was executed successfully and the output was verified.

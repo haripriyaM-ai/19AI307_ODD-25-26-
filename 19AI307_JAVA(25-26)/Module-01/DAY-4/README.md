@@ -74,15 +74,8 @@ java Main
 
 
 ## OUTPUT:
-```
-5
-2
-7
-4
-9
-6
-9
-```
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cb8cfc09-32f0-49e2-bfbe-618d297832f9" />
+
 
 
 ## RESULT:

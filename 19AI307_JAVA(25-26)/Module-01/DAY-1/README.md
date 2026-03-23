@@ -56,12 +56,11 @@ Run the program using
 java Main
 
 ## OUTPUT:
-```
-5
-Initial countdown = 5
-After post-decrement (a--) = 5, Now a = 4
-After pre-decrement (--a) = 3, Now a = 3
-```
+
+<img width="978" height="295" alt="image" src="https://github.com/user-attachments/assets/662cfb16-1b23-4a4c-8438-76875fc0c33d" />
+
+
+
 
 ## RESULT:
 Thus, the Java program to demonstrate the use of variables and decrement operators was successfully executed and the output was verified.

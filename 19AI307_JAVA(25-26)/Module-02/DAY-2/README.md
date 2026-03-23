@@ -68,10 +68,8 @@ java Main
 
 ## OUTPUT:
 
-```
-I am static
-I am non-static
-```
+<img width="416" height="184" alt="image" src="https://github.com/user-attachments/assets/665be8dc-b0bf-4631-aad4-67c1449348e8" />
+
 
 ---
 

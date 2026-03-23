@@ -96,12 +96,8 @@ java prog
 
 ## OUTPUT:
 
-```
-1234567890
-5000
-Account Number: 1234567890
-Balance: 5000.0
-```
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/172f8c6f-95e6-4e6f-b448-1fe29e391576" />
+
 
 ---
 

@@ -70,12 +70,8 @@ java Main
 
 
 ## OUTPUT:
-```
-3
-3
-3
-Equilateral
-```
+<img width="393" height="151" alt="image" src="https://github.com/user-attachments/assets/256ed377-6ded-4d79-bf5a-809e703dce7a" />
+
 
 
 ## RESULT:

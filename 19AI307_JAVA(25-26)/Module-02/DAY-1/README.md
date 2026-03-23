@@ -84,16 +84,8 @@ java Main
 
 ## OUTPUT:
 
-```
-TN01AB1234
-Car
-Ramesh
-TN10CD5678
-Bike
-Suresh
-TN01AB1234 | Car | Ramesh
-TN10CD5678 | Bike | Suresh
-```
+<img width="800" height="243" alt="image" src="https://github.com/user-attachments/assets/5df587ce-7eee-47ca-86e2-f33f2326dbae" />
+
 
 ---
 

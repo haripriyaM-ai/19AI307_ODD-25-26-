@@ -91,15 +91,8 @@ java Main
 
 ## OUTPUT:
 
-```
-4
-5
-6
-3
-Area of square: 16
-Area of rectangle: 30
-Area of circle: 28.274333882308138
-```
+<img width="700" height="345" alt="image" src="https://github.com/user-attachments/assets/b0daa3d3-aec0-466a-bb28-2ebeddd2bd40" />
+
 
 ---
 

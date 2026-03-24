@@ -106,21 +106,8 @@ java Main
 
 ## OUTPUT:
 
-```
-20
-15
-1
-WIN
-```
+<img width="310" height="266" alt="image" src="https://github.com/user-attachments/assets/3c12dac9-03ae-42ee-bc57-203de54bcaa7" />
 
-(or)
-
-```
-20
-18
-2
-DRAW
-```
 
 ---
 

@@ -143,19 +143,8 @@ java FoodDeliveryApp
 
 ## OUTPUT:
 
-```
-Prime
-ORD101
-Ravi
-500
-50
-Order ID: ORD101
-Customer Name: Ravi
-User Type: Prime
-Total Amount: 500.0
-Delivery Charge: 50.0
-Final Amount: 525.00
-```
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/9d7ae75d-dde6-4203-9442-6e43ad9889f0" />
+
 
 ---
 

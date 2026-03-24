@@ -1,12 +1,12 @@
 # Ex.No:3(F) WRAPPER CLASS
 
 ## QUESTION:
-Write a Java program to check whether a given number is **prime or not** and handle **invalid input using exception handling**.
+Write a Java program to check whether a number is **prime using wrapper classes**.
 
 ---
 
 ## AIM:
-To write a Java program to **check whether a number is prime or not and handle invalid inputs**.
+To write a Java program to **check whether a number is prime using wrapper class methods**.
 
 ---
 
@@ -16,13 +16,13 @@ To write a Java program to **check whether a number is prime or not and handle i
 3. Create a class `Main`.  
 4. Inside the `main()` method create a `Scanner` object.  
 5. Read the input as a string.  
-6. Convert the string into an integer using `Integer.parseInt()`.  
-7. If the number is less than or equal to 1, print that it is not a prime number.  
-8. Otherwise check divisibility from `2` to `√n`.  
-9. If any number divides `n`, mark it as not prime.  
-10. If no divisor is found, print that the number is prime.  
-11. Use `try-catch` block to handle invalid integer input.  
-12. If an exception occurs, print an invalid input message.  
+6. Convert the string into an integer using `Integer.parseInt()` (wrapper class).  
+7. If the number is less than or equal to 1, print not prime.  
+8. Otherwise, check divisibility from `2` to `√n`.  
+9. If divisible, mark as not prime.  
+10. If not divisible by any number, mark as prime.  
+11. Use `try-catch` to handle invalid input.  
+12. Display the result.  
 13. Stop the program.
 
 ---
@@ -31,7 +31,7 @@ To write a Java program to **check whether a number is prime or not and handle i
 
 ```java
 /*
-Program to implement a WrapperClass using Java
+Program to check prime number using wrapper class
 Developed by: HARI PRIYA M
 RegisterNumber: 212224240047
 */
@@ -95,27 +95,11 @@ java Main
 
 ## OUTPUT:
 
-```
-7
-7 is a prime number.
-```
+<img width="609" height="225" alt="image" src="https://github.com/user-attachments/assets/395c6981-57e0-40c5-88d6-00beb4034e63" />
 
-(or)
-
-```
-10
-10 is not a prime number.
-```
-
-(or)
-
-```
-abc
-Invalid input. Please enter a valid integer.
-```
 
 ---
 
 ## RESULT:
 
-Thus, the Java program to **check whether a number is prime or not with exception handling** was executed successfully and the output was verified.
+Thus, the Java program to check whether a number is **prime using wrapper class** was executed successfully and the output was verified.

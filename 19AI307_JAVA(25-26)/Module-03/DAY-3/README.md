@@ -113,20 +113,8 @@ java Main
 
 ## OUTPUT:
 
-```
-1
-500
-3
-800
-```
+<img width="304" height="182" alt="image" src="https://github.com/user-attachments/assets/1f0814b6-d185-4723-bd94-d5e72133a066" />
 
-(or)
-
-```
-2
-2
-800
-```
 
 ---
 

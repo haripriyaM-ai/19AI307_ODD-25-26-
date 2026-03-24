@@ -90,11 +90,8 @@ public class Main{
 ---
 
 ## OUTPUT:
+<img width="609" height="225" alt="image" src="https://github.com/user-attachments/assets/0c77b4dd-5f14-47ff-b9e5-26ec4b890b6f" />
 
-```
-7
-7 is a prime number.
-```
 
 ---
 

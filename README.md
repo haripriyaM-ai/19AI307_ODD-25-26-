@@ -1,337 +1,205 @@
-# Ex.No:1(A) INTRODUCTION TO JAVA PROGRAMMING, DATA TYPES, VARIABLES AND OPERATORS
+# Ex.No:2(A) CLASS AND OBJECT
 
 ## QUESTION:
-Write a Java program to demonstrate the use of variables and operators (pre-decrement and post-decrement).
-
-## AIM:
-To write a Java program to demonstrate the use of variables and decrement operators (pre and post).
-
-## ALGORITHM :
-1.	Start the program.
-2.	Import the Scanner class to read input from the user.
-3.	Create a class named Main.
-4.	Inside the main() method, create a Scanner object.
-5.	Declare an integer variable n.
-6.	Read the value of n from the user.
-7.	Display the initial value of n.
-8.	Apply post-decrement operator (n--) and print the result.
-9.	Apply pre-decrement operator (--n) and print the result
-10.	Stop the program.
-
-
-
-
-## PROGRAM:
- ```
-/*
-Program to implement variables and Operators using Java
-Developed by: HARI PRIYA M 
-RegisterNumber: 212224240047  
-*/
-```
-
-```java
-import java.util.Scanner;
-
-public class Main{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        
-        System.out.println("Initial countdown = "+n);
-        System.out.println("After post-decrement (a--) = "+(n--)+", Now a = "+n);
-        System.out.println("After pre-decrement (--a) = "+(--n)+", Now a = "+n);
-    }
-}
-```
-
-
-
-## Sourcecode.java:
-
-Compile the program using
-javac Main.java
-
-Run the program using
-java Main
-
-## OUTPUT:
-
-<img width="978" height="295" alt="image" src="https://github.com/user-attachments/assets/662cfb16-1b23-4a4c-8438-76875fc0c33d" />
-
-
-
-
-## RESULT:
-Thus, the Java program to demonstrate the use of variables and decrement operators was successfully executed and the output was verified.
-
-----
-
-# Ex.No:1(B) CONDITIONAL STATEMENT
-
-## QUESTION:
-Write a Java program to determine the type of triangle (Equilateral, Isosceles, Scalene) using conditional statements.
-
-## AIM:
-To write a Java program to determine the type of triangle using conditional statements.
-
-## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package java.util.
-3.	Create a class named Main.
-4.	Inside the main() method, create a Scanner object to read input.
-5.	Read three integer values representing the sides of the triangle (h, b, w).
-6.	Check if the given sides satisfy the triangle condition : (h + b > w) AND (b + w > h) AND (w + h > b).
-7.	If the condition is true:
-   - If all three sides are equal → print Equilateral.
-   - Else if any two sides are equal → print Isosceles.
-   - Else → print Scalene.
-8. If the triangle condition is false → print Not a triangle.
-
-9. Stop the program.
-
-
-
-
-
-## PROGRAM:
- ```
-/*
-Program to implement a conditional statement using Java
-Developed by: HARI PRIYA M 
-RegisterNumber: 212224240047  
-*/
-```
-
-```java
-import java.util.Scanner;
-
-public class Main{
-    public static void main(String[] aths){
-        Scanner sc = new Scanner(System.in);
-        
-        int h = sc.nextInt();
-        int b = sc.nextInt();
-        int w = sc.nextInt();
-        
-        if(h+b>w && b+w>h && w+h>b){
-        if(h == b && b == w)System.out.println("Equilateral");
-        else if(h==b || w==h ||b==w)System.out.println("Isosceles");
-        else System.out.println("Scalene");
-        }
-        else System.out.println("Not a triangle");
-    }
-}
-
-```
-
-## SOURCE CODE:
-
-Compile the program using
-javac Main.java
-
-Run the program using
-java Main
-
-
-
-
-
-
-## OUTPUT:
-<img width="393" height="151" alt="image" src="https://github.com/user-attachments/assets/256ed377-6ded-4d79-bf5a-809e703dce7a" />
-
-
-
-## RESULT:
-Thus, the Java program to determine the type of triangle using conditional statements was executed successfully and the output was verified.
-
-
-----
-
-# Ex.No:1(C) LOOPING STATEMENT
-
-## QUESTION:
-Write a Java program to find the factorial of a given number using a looping statement.
-
-## AIM:
-To write a Java program to calculate the factorial of a given number using a loop.
-
-## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package java.util.
-3.	Create a class named Main.
-4.	Inside the main() method create a Scanner object to read input.
-5.	Read an integer value n from the user.
-6.	Initialize a variable f to 1 to store the factorial result.
-7.	Use a for loop from 1 to n.
-8.	Multiply f with each number in the loop.
-9.	Store the result in f.
-10.	Display the factorial of the number.
-11.	Stop the program.
-
-
-
-
-## PROGRAM:
- ```
-/*
-Program to implement a Looping Statement using Java
-Developed by: HARI PRIYA M 
-RegisterNumber: 212224240047  
-*/
-```
-
-```java
-import java.util.Scanner;
-
-public class Main{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int f = 1;
-        
-        for(int i=1;i<=n;i++){
-            f = f*i;
-        }
-        
-        System.out.println("Factorial of "+n+" is: "+f);
-    }
-}
-```
-
-## SOURCE CODE:
-
-Compile the program using
-javac Main.java
-
-Run the program using
-java Main
-
-
-
-
-
-
-## OUTPUT:
-
-<img width="681" height="248" alt="image" src="https://github.com/user-attachments/assets/84152090-2f71-4b81-8a32-a27112032aa9" />
-
-
-## RESULT:
-Thus, the Java program to find the factorial of a number using a looping statement was executed successfully and the output was verified.
-
-----
-
-# Ex.No:1(D) ARRAYS
-
-## QUESTION:
-Write a Java program to find the maximum odd number in an array.
-
-## AIM:
-To write a Java program to find the maximum odd number in a given array using array concept.
-
-## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package java.util.
-3.	Create a class named Main.
-4.	Inside the main() method create a Scanner object.
-5.	Read the number of elements n.
-6.	Declare an array arr of size n.
-7.	Use a loop to read n elements and store them in the array.
-8.	Initialize a variable max with Integer.MIN_VALUE.
-9.	Traverse through the array using a loop.
-10.	Check if the element is odd (arr[i] % 2 != 0).
-11.	If the element is odd and greater than max, update max.
-12.	After the loop, check:
-    - If max is still Integer.MIN_VALUE, print No odd number found.
-    - Otherwise print the maximum odd number.
-
-13. Stop the program.
-
-
-
-
-
-## PROGRAM:
- ```
-/*
-Program to implement a Array concept using Java
-Developed by: HARI PRIYA M 
-RegisterNumber: 212224240047  
-*/
-```
-
-```java
-import java.util.Scanner;
-
-public class Main{
-    public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        for(int i=0;i<n;i++){
-            arr[i] = sc.nextInt();
-        }
-        
-        int max = Integer.MIN_VALUE;
-        for(int i=0;i<n;i++){
-            if(arr[i] % 2 !=0){
-                if(arr[i] > max){
-                    max = arr[i];
-                }
-            }
-        }
-        System.out.println((max == Integer.MIN_VALUE) ? "No odd number found" : max);
-    }
-}
-```
-
-## SOURCE CODE:
-
-Compile the program using
-javac Main.java
-
-Run the program using
-java Main
-
-
-
-
-## OUTPUT:
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/cb8cfc09-32f0-49e2-bfbe-618d297832f9" />
-
-
-
-## RESULT:
-Thus, the Java program to find the maximum odd number in an array was executed successfully and the output was verified.
-
-----
-
-# Ex.No:1(E) STRINGS AND MATH FUNCTION
-
-## QUESTION:
-Write a Java program to find the **longest word in a given sentence**.
+Write a Java program to demonstrate the concept of **class and object** by storing and displaying vehicle details.
 
 ---
 
 ## AIM:
-To write a Java program to **identify the longest word from a given string using string functions**.
+To write a Java program to demonstrate the **class and object concept by creating objects and accessing their attributes**.
 
 ---
 
 ## ALGORITHM :
 1. Start the program.  
 2. Import the necessary package `java.util`.  
-3. Create a class `Main`.  
-4. Inside the `main()` method create a `Scanner` object.  
-5. Read a full line string from the user.  
-6. Split the string into words using `split("\\s+")`.  
-7. Store the first word as the longest word.  
-8. Traverse through the remaining words using a loop.  
-9. Compare the length of each word with the current longest word.  
-10. If a word is longer, update the longest word.  
-11. Display the longest word.  
+3. Create a class named `Main`.  
+4. Define an inner class `Vehicle` with attributes `number`, `type`, and `owner`.  
+5. Inside the `main()` method create a `Scanner` object.  
+6. Create the first object `v1` of class `Vehicle`.  
+7. Read vehicle number, type, and owner name for `v1`.  
+8. Create the second object `v2` of class `Vehicle`.  
+9. Read vehicle number, type, and owner name for `v2`.  
+10. Display the details of both vehicles using the object variables.  
+11. Stop the program.
+
+---
+
+## PROGRAM:
+
+```java
+/*
+Program to implement a Class and Objects using Java
+Developed by: HARI PRIYA M 
+RegisterNumber: 212224240047  
+*/
+
+import java.util.Scanner;
+
+public class Main {
+    public static class Vehicle{
+        String number;
+        String type;
+        String owner;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        Vehicle v1 = new Vehicle();
+        v1.number = sc.next();
+        v1.type = sc.next();
+        v1.owner = sc.next();
+
+        Vehicle v2 = new Vehicle();
+        v2.number = sc.next();
+        v2.type = sc.next();
+        v2.owner = sc.next();
+
+        System.out.println(v1.number + " | " + v1.type + " | " + v1.owner);
+        System.out.println(v2.number + " | " + v2.type + " | " + v2.owner);
+
+        sc.close();
+    }
+}
+```
+
+---
+
+## SOURCE CODE:
+
+Compile the program using
+
+```
+javac Main.java
+```
+
+Run the program using
+
+```
+java Main
+```
+
+---
+
+## OUTPUT:
+
+<img width="800" height="243" alt="image" src="https://github.com/user-attachments/assets/5df587ce-7eee-47ca-86e2-f33f2326dbae" />
+
+
+---
+
+## RESULT:
+
+Thus, the Java program to demonstrate the **class and object concept** was executed successfully and the output was verified.
+
+----
+
+# Ex.No:2(B) METHODS
+
+## QUESTION:
+Write a Java program to demonstrate the concept of **class and object**.
+
+---
+
+## AIM:
+To write a Java program to demonstrate the **class and object concept using static and non-static methods**.
+
+---
+
+## ALGORITHM :
+1. Start the program.  
+2. Create a class named `Main`.  
+3. Define a **static method** `printst()` to print a message.  
+4. Define a **non-static method** `printnonst()` to print a message.  
+5. Inside the `main()` method call the static method directly.  
+6. Create an object of the class `Main`.  
+7. Call the non-static method using the object.  
+8. Stop the program.
+
+---
+
+## PROGRAM:
+
+```java
+/*
+Program to implement a Class and Objects using Java
+Developed by: HARI PRIYA M 
+RegisterNumber: 212224240047  
+*/
+
+public class Main{
+    static void printst(){
+        System.out.println("I am static");
+    }
+
+    void printnonst(){
+        System.out.println("I am non-static");
+    }
+
+    public static void main(String[] args){
+        printst();
+        Main obj = new Main();
+        obj.printnonst();
+    }
+}
+```
+
+---
+
+## SOURCE CODE:
+
+Compile the program using
+
+```
+javac Main.java
+```
+
+Run the program using
+
+```
+java Main
+```
+
+---
+
+## OUTPUT:
+
+<img width="416" height="184" alt="image" src="https://github.com/user-attachments/assets/665be8dc-b0bf-4631-aad4-67c1449348e8" />
+
+
+---
+
+## RESULT:
+
+Thus, the Java program to demonstrate the **class and object concept** was executed successfully and the output was verified.
+
+----
+
+# Ex.No:2(C) ACCESS SPECIFIERS
+
+## QUESTION:
+Write a Java program to demonstrate the use of **access specifiers (private)** using getter and setter methods.
+
+---
+
+## AIM:
+To write a Java program to demonstrate **data hiding using private access specifier with getter and setter methods**.
+
+---
+
+## ALGORITHM :
+1. Start the program.  
+2. Import the necessary package `java.util`.  
+3. Create a class `BankAccount`.  
+4. Declare private variables `accno` and `bal`.  
+5. Create **getter methods** to return account number and balance.  
+6. Create **setter methods** to set account number and balance.  
+7. Create another class `prog` containing the `main()` method.  
+8. Create an object of `BankAccount`.  
+9. Read account number and balance from the user.  
+10. Use setter methods to store values in the object.  
+11. Use getter methods to display account number and balance.  
 12. Stop the program.
 
 ---
@@ -340,34 +208,152 @@ To write a Java program to **identify the longest word from a given string using
 
 ```java
 /*
-Program to find the longest word in a string
+Program to implement a Access Specifiers using Java
 Developed by: HARI PRIYA M
 RegisterNumber: 212224240047
 */
 
 import java.util.Scanner;
 
-public class Main
-{
-    public static void main(String args[])
-    {
-        Scanner sc=new Scanner(System.in);
+class BankAccount{
+    private String accno;
+    private double bal;
+    
+    public String getAccountNumber(){
+        return accno;
+    }
+    
+    public void setAccountNumber(String accno){
+        this.accno = accno;
+    }
+    
+    public double getbalance(){
+        return bal;
+    }
 
-        String a=sc.nextLine();
+    public void setbalance(double balance){
+        this.bal = balance;
+    }
+}
 
-        String[] words=a.split("\\s+");
+public class prog{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
 
-        String l=words[0];
+        BankAccount obj = new BankAccount();
+
+        String tempaccno = sc.nextLine();
+        double tempbal = sc.nextDouble();
+
+        obj.setAccountNumber(tempaccno);
+        obj.setbalance(tempbal);
+
+        System.out.println("Account Number: " + obj.getAccountNumber());
+        System.out.println("Balance: " + obj.getbalance());
+    } 
+}
+```
+
+---
+
+## SOURCE CODE:
+
+Compile the program using
+
+```
+javac prog.java
+```
+
+Run the program using
+
+```
+java prog
+```
+
+---
+
+## OUTPUT:
+
+<img width="700" height="300" alt="image" src="https://github.com/user-attachments/assets/172f8c6f-95e6-4e6f-b448-1fe29e391576" />
+
+
+---
+
+## RESULT:
+
+Thus, the Java program to demonstrate **access specifiers using private variables and getter/setter methods** was executed successfully and the output was verified.
+
+----
+
+# Ex.No:2(D) VARIABLE SCOPE AND CONSTRUCTOR
+
+## QUESTION:
+Write a Java program to demonstrate the use of **variable scope and constructor** to initialize and display employee details.
+
+---
+
+## AIM:
+To write a Java program to demonstrate **variable scope and constructor initialization in a class**.
+
+---
+
+## ALGORITHM :
+1. Start the program.  
+2. Import the necessary package `java.util`.  
+3. Create a class `Employee`.  
+4. Declare variables `id`, `name`, and `salary`.  
+5. Create a **constructor** to initialize these variables.  
+6. Use `this` keyword to assign constructor parameters to class variables.  
+7. Create a method `display()` to print employee details.  
+8. Create another class `prog` containing the `main()` method.  
+9. Read employee id, name, and salary from the user.  
+10. Create an object of class `Employee` and pass the values to the constructor.  
+11. Call the `display()` method to show employee details.  
+12. Stop the program.
+
+---
+
+## PROGRAM:
+
+```java
+/*
+Program to implement a Variable scope and Constructor using Java
+Developed by: HARI PRIYA M
+RegisterNumber: 212224240047
+*/
+
+import java.util.Scanner;
+
+class Employee{
+    int id;
+    String name;
+    double salary;
+    
+    public Employee(int id,String name,double salary){
+        this.id = id;
+        this.name = name;
+        this.salary = salary;
+    }
+    
+    public void display(){
+        System.out.println("Employee Details:");
+        System.out.println("Employee ID: "+id);
+        System.out.println("Employee Name: "+name);
+        System.out.printf("Employee Salary: %.1f",salary);
+    }
+}
+
+class prog{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        int id = sc.nextInt();
+        sc.nextLine();
+        String name = sc.nextLine();
+        double salary = sc.nextDouble();
         
-        for(int i=1;i<words.length;i++)
-        {
-            if(words[i].length()>l.length())
-            {
-                l=words[i];
-            }
-        }
-
-        System.out.println("The longest word is: "+l);
+        Employee emp = new Employee(id,name,salary);
+        emp.display();
     }
 }
 ```
@@ -379,25 +365,133 @@ public class Main
 Compile the program using
 
 ```
-javac Main.java
+javac prog.java
 ```
 
 Run the program using
 
 ```
-java Main
+java prog
 ```
 
 ---
 
 ## OUTPUT:
 
-<img width="747" height="261" alt="image" src="https://github.com/user-attachments/assets/342723c1-b57f-44c9-8b13-95771e3cf7c6" />
+```
+101
+Ravi Kumar
+35000
+Employee Details:
+Employee ID: 101
+Employee Name: Ravi Kumar
+Employee Salary: 35000.0
+```
+
+---
+
+## RESULT:
+
+Thus, the Java program to demonstrate **variable scope and constructor** was executed successfully and the output was verified.
+
+----
+
+# Ex.No:2(E) ACCESS MODIFIERS
+
+## QUESTION:
+Write a Java program to demonstrate the use of **access modifiers** in a class.
+
+---
+
+## AIM:
+To write a Java program to demonstrate **access modifiers by accessing class members through methods**.
+
+---
+
+## ALGORITHM :
+1. Start the program.  
+2. Import the necessary package `java.util`.  
+3. Create a class named `Employee`.  
+4. Declare a variable `name` inside the class.  
+5. Create a method `setName()` to assign a value to the variable.  
+6. Create a method `display()` that returns the current object using `this`.  
+7. Create a method `printName()` to display the employee name.  
+8. Create another class `prog` with the `main()` method.  
+9. Read the employee name from the user.  
+10. Create an object of class `Employee`.  
+11. Call `setName()` to store the name.  
+12. Call `display().printName()` to print the employee name.  
+13. Stop the program.
+
+---
+
+## PROGRAM:
+
+```java
+/*
+Program to implement a Access Modifiers using Java
+Developed by: HARI PRIYA M
+RegisterNumber: 212224240047
+*/
+
+import java.util.Scanner;
+
+class Employee{
+    String name;
+    
+    void setName(String name){
+        this.name = name;
+    }
+
+    Employee display(){
+        return this;
+    }
+
+    void printName(){
+        System.out.println("Employee Name: " + name);
+    }
+}
+
+class prog{
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        String name = sc.nextLine();
+
+        Employee emp = new Employee();
+        emp.setName(name);
+
+        emp.display().printName();
+    }
+}
+```
+
+---
+
+## SOURCE CODE:
+
+Compile the program using
+
+```
+javac prog.java
+```
+
+Run the program using
+
+```
+java prog
+```
+
+---
+
+## OUTPUT:
+
+<img width="623" height="255" alt="image" src="https://github.com/user-attachments/assets/e7f86a3e-a5f5-4e87-86e8-07a308e1f7de" />
 
 
 ---
 
 ## RESULT:
 
-Thus, the Java program to find the **longest word in a given string** was executed successfully and the output was verified.
+Thus, the Java program to demonstrate **access modifiers** was executed successfully and the output was verified.
 
